@@ -1,0 +1,12 @@
+#include "resource.h"
+
+OBERON                  BOOTFILE MOVEABLE PURE  "Oberon.hex"
+
+OBERON                  ICON    DISCARDABLE     "Oberon.ico"
+
+ARROW                   CURSOR  DISCARDABLE     "Arrow.cur"
+FLATHAND                CURSOR  DISCARDABLE     "FlatHand.cur"
+MOVEHAND                CURSOR  DISCARDABLE     "MoveHand.cur"
+COPYHAND                CURSOR  DISCARDABLE     "CopyHand.cur"
+POINTHAND               CURSOR  DISCARDABLE     "PointHand.cur"
+CROSS                   CURSOR  DISCARDABLE     "Cross.cur"
