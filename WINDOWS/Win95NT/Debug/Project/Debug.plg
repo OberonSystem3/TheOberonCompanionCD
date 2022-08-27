@@ -1,0 +1,31 @@
+--------------------Configuration: Debug - Win32 Release--------------------
+Begining build with project "D:\Debug\Debug.dsp", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp".\Release/Debug.pch" /YX /Fo".\Release/" /Fd".\Release/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "NDEBUG" /mktyplib203 /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x420 /fo".\Release/debug.res" /d "NDEBUG" "
+			"Browser Database Maker" with flags "/nologo /o".\Release/Debug.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /incremental:no /pdb:".\Release/Debug.pdb" /machine:I386 /def:".\Debug.Def" /out:".\Release/Debug.exe" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating command line "rc.exe /l 0x420 /fo".\Release/debug.res" /d "NDEBUG" "D:\Debug\debug.rc"" 
+Creating temp file "C:\TEMP\RSP1CF.tmp" with contents </nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp".\Release/Debug.pch" /YX /Fo".\Release/" /Fd".\Release/" /FD /c 
+"D:\Debug\debug.c"
+>
+Creating command line "cl.exe @C:\TEMP\RSP1CF.tmp" 
+Creating temp file "C:\TEMP\RSP1D0.tmp" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /incremental:no /pdb:".\Release/Debug.pdb" /machine:I386 /def:".\Debug.Def" /out:".\Release/Debug.exe" 
+.\Release\debug.obj
+.\Release\debug.res>
+Creating command line "link.exe @C:\TEMP\RSP1D0.tmp" 
+Compiling resources...
+Compiling...
+debug.c
+Linking...
+   Creating library .\Release/Debug.lib and object .\Release/Debug.exp
+
+
+
+Debug.exe - 0 error(s), 0 warning(s)

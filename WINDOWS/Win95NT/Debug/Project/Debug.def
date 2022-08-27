@@ -1,0 +1,16 @@
+NAME		Debug
+
+DESCRIPTION	'Debug (ejz)'
+
+CODE		PRELOAD MOVEABLE DISCARDABLE
+DATA		PRELOAD MOVEABLE MULTIPLE
+
+HEAPSIZE	1024
+
+EXPORTS
+	WndProc
+	ChildWndProc
+	StartDlgProc
+	AboutDlgProc
+	StateDlgProc
+	ThreadProc

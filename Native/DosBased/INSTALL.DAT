@@ -1,0 +1,109 @@
+Display mode
+0 Standard VGA 640x480x4
+Display=VGA. Init=b81200cd10
+29 S3-Trio 1280x1024x8 Vesa
+Display=S3Trio. Init=bb0701b8024fcd10ba00e0b90000 MapVesa=1 DWidth=1280 DHeight=1024 DMem=2048
+28 S3-Trio 1024x768x8 Vesa
+Display=S3Trio. Init=bb0501b8024fcd10ba00e0b90000 MapVesa=1
+30 S3-Trio 800x600x8 Vesa
+Display=S3Trio. Init=bb0301b8024fcd10ba00e0b90000 MapVesa=1 DWidth=800 DHeight=600 DMem=1024
+31 S3-Trio 640x480x8 Vesa
+Display=S3Trio. Init=bb0101b8024fcd10ba00e0b90000 MapVesa=1 DWidth=640 DHeight=480 DMem=1024
+14 S3-805 1280x1024x8
+Display=S3C805. Init=bb0702b8024fcd10 DWidth=1280 DHeight=1024 DMem=2048
+20 S3-805 1280x1024x8 Vesa
+Display=S3C805. Init=bb0701b8024fcd10 DWidth=1280 DHeight=1024 DMem=2048
+1 S3-805 1024x768x8
+Display=S3C805. Init=bb0502b8024fcd10
+21 S3-805 1024x768x8 Vesa
+Display=S3C805. Init=bb0501b8024fcd10
+15 S3-805 800x600x8
+Display=S3C805. Init=bb0302b8024fcd10 DWidth=800 DHeight=600 DMem=1024
+22 S3-805 800x600x8 Vesa
+Display=S3C805. Init=bb0301b8024fcd10 DWidth=800 DHeight=600 DMem=1024
+16 S3-805 640x480x8
+Display=S3C805. Init=bb0102b8024fcd10 DWidth=640 DHeight=480 DMem=1024
+23 S3-805 640x480x8 Vesa
+Display=S3C805. Init=bb0101b8024fcd10 DWidth=640 DHeight=480 DMem=1024
+17 S3-924 1280x1024x8
+Display=S3C924. Init=bb0702b8024fcd10 DWidth=1280 DHeight=1024 DMem=2048
+24 S3-924 1280x1024x8 Vesa
+Display=S3C924. Init=bb0701b8024fcd10 DWidth=1280 DHeight=1024 DMem=2048
+2 S3-924 1024x768x8
+Display=S3C924. Init=bb0502b8024fcd10
+25 S3-924 1024x768x8 Vesa
+Display=S3C924. Init=bb0501b8024fcd10
+18 S3-924 800x600x8
+Display=S3C924. Init=bb0302b8024fcd10 DWidth=800 DHeight=600 DMem=1024
+26 S3-924 800x600x8 Vesa
+Display=S3C924. Init=bb0301b8024fcd10 DWidth=800 DHeight=600 DMem=1024
+19 S3-924 640x480x8
+Display=S3C924. Init=bb0102b8024fcd10 DWidth=640 DHeight=480 DMem=1024
+27 S3-924 640x480x8 Vesa
+Display=S3C924. Init=bb0101b8024fcd10 DWidth=640 DHeight=480 DMem=1024
+10 Tseng VGA 640x480x4 72Hz
+Display=VGA. Init=31c08ec026800e880440b81200cd10
+11 Tseng W32 1280x1024x8
+Display=W32. Init=b83f00cd10 DWidth=1280 DHeight=1024 DMem=2048
+3 Tseng W32 1024x768x8
+Display=W32. Init=b83800cd10
+12 Tseng W32 800x600x8
+Display=W32. Init=b83000cd10 DWidth=800 DHeight=600 DMem=1024
+13 Tseng W32 640x480x8
+Display=W32. Init=b82e00cd10 DWidth=640 DHeight=480 DMem=1024
+4 Tseng ET4000 1280x1024x8
+Display=ET4000. Init=b83f00cd10 DWidth=1280 DHeight=1024 DMem=2048
+5 Tseng ET4000 1024x768x8
+Display=ET4000. Init=b83800cd10 DWidth=1024 DHeight=768 DMem=1024
+6 Tseng ET4000 800x600x8
+Display=ET4000. Init=b83000cd10 DWidth=800 DHeight=600 DMem=1024
+9 Tseng ET4000 640x480x8
+Display=ET4000. Init=b82e00cd10 DWidth=640 DHeight=480 DMem=1024
+32 Vesa 2.0 1280x1024x8 linbuf
+Display=Vesa. Init=b8014fb90701cd10268b4d28268b552abb0741b8024fcd10 MapVesa=1 DWidth=1280 DHeight=1024 DMem=2048
+33 Vesa 2.0 1024x768x8 linbuf
+Display=Vesa. Init=b8014fb90501cd10268b4d28268b552abb0541b8024fcd10 MapVesa=1
+34 Vesa 2.0 800x600x8 linbuf
+Display=Vesa. Init=b8014fb90301cd10268b4d28268b552abb0341b8024fcd10 MapVesa=1 DWidth=800 DHeight=600 DMem=1024
+35 Vesa 2.0 640x480x8 linbuf
+Display=Vesa. Init=b8014fb90101cd10268b4d28268b552abb0141b8024fcd10 MapVesa=1 DWidth=640 DHeight=480 DMem=1024
+7 Cirrus GD543x 1024x768x8
+Display=GD54xx. Init=b86000cd10
+36 Cirrus GD542x 1024x768x8
+Display=GD542x. Init=bb0501b8024fcd10
+8 Video7 Mirage 1024x768x8 S3
+Display=S3C805. Init=b84d00cd10
+-1
+Mouse type
+0 3-button PS/2
+MouseType=6 Buttons=3
+1 3-button Logitech serial
+MouseType=5 Buttons=3 MousePort=1
+2 3-button Mouse Systems serial type A
+MouseType=1 Buttons=3 MousePort=1
+7 3-button Mouse Systems serial type B
+MouseType=4 Buttons=3 MousePort=1
+3 2-button PS/2
+MouseType=6 Buttons=2
+4 2-button Microsoft serial
+MouseType=0 Buttons=2 MousePort=1
+5 3-button Logitech serial old type A
+MouseType=2 Buttons=3 MousePort=1
+6 3-button Logitech serial old type B
+MouseType=3 Buttons=3 MousePort=1
+-1
+Keyboard type
+0 United States
+Keyboard=US
+1 Swiss
+Keyboard=KeyCH.Bin
+2 German
+Keyboard=KeyD.Bin
+3 Norwegian
+Keyboard=KeyN.Bin
+4 United Kingdom
+Keyboard=KeyUK.Bin
+5 Canadian
+Keyboard=KeyCA.Bin
+-1
+~
