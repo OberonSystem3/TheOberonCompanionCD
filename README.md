@@ -1,2 +1,3 @@
-# TheOberonCompanionCD
-This is the original contents of the CD to the book "The Oberon Companion" (vdf, 1998)
+This is the original contents of the CD to the book "The Oberon Companion" (Fischer, A.; Marais, H.; vdf verlag, 1998)
+
+The folder Acroread is not included. Everything else is here. See README.TXT for more information.
